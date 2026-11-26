@@ -1,0 +1,17 @@
+node_modules/
+# Mídia pesada de cada vídeo fica fora do GitHub; o resultado vai para o Drive.
+videos/*/entrada/
+videos/*/midia/
+videos/*/saida/
+videos/*/trabalho/*
+!videos/*/trabalho/imagens.md
+!videos/*/trabalho/entrega.md
+!videos/*/trabalho/narracao.txt
+!videos/*/trabalho/narracao-ficha.md
+videos/*/_entrada.tsx
+# Folhas de garimpo do acervo: só o índice vai para o repositório.
+acervo/*/
+motor/bin/
+*.log
+.DS_Store
+Thumbs.db
