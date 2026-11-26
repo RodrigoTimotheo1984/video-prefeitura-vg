@@ -1,0 +1,144 @@
+{
+  "titulo": "Multas de trânsito com 50% de desconto",
+  "tipo": "aviso",
+  "conceito": "Pela metade: a palavra MULTA é cortada ao meio por uma lâmina amarela, a metade de baixo cai e o 50% sobe no lugar.",
+  "assinatura": {
+    "linha1": "",
+    "linha2": "Transparência, trabalho e progresso"
+  },
+  "transicao": "cortina",
+  "vo": {
+    "arquivo": "audio/narracao_completa_v2.wav",
+    "trechos": [
+      {
+        "de": 0,
+        "ate": 83,
+        "em": 12
+      },
+      {
+        "de": 83,
+        "ate": 208,
+        "em": 107
+      },
+      {
+        "de": 562,
+        "ate": 654,
+        "em": 244
+      },
+      {
+        "de": 208,
+        "ate": 339,
+        "em": 348
+      },
+      {
+        "de": 339,
+        "ate": 418,
+        "em": 499
+      },
+      {
+        "de": 418,
+        "ate": 562,
+        "em": 605
+      }
+    ]
+  },
+  "trilha": {
+    "arquivo": "audio/groundwork.mp3",
+    "inicio": 565,
+    "volume": 0.16,
+    "volumeFinal": 0.3,
+    "sobeEm": 714
+  },
+  "cenas": [
+    {
+      "tipo": "abertura",
+      "duracao": 342,
+      "corte": 108,
+      "linhas": [
+        {
+          "texto": "Multa"
+        },
+        {
+          "texto": "de trânsito municipal?",
+          "placa": true
+        }
+      ],
+      "chamada": "sobre o valor atualizado",
+      "midia": [
+        {
+          "arquivo": "clips/AGENTE.mp4",
+          "inicio": 0
+        },
+        {
+          "arquivo": "clips/VIA_C.mp4",
+          "inicio": 0.6
+        },
+        {
+          "arquivo": "clips/CONES.mp4",
+          "inicio": 0.2
+        },
+        {
+          "arquivo": "clips/VIA_A.mp4",
+          "inicio": 0.1,
+          "velocidade": 0.75
+        }
+      ],
+      "condicao": "pagamento integral, à vista",
+      "condicaoEm": 264
+    },
+    {
+      "tipo": "info",
+      "duracao": 143,
+      "titulo": "Como funciona",
+      "itens": [
+        {
+          "rotulo": "Multas municipais de",
+          "valor": "Várzea Grande"
+        },
+        {
+          "rotulo": "Vencidas até",
+          "valor": "31/12/2025"
+        },
+        {
+          "rotulo": "Pagamento",
+          "valor": "Integral, à vista"
+        }
+      ],
+      "midia": [
+        {
+          "arquivo": "clips/PRANCHETA_A.mp4",
+          "inicio": 0
+        },
+        {
+          "arquivo": "clips/PRANCHETA_B.mp4",
+          "inicio": 1.0
+        }
+      ]
+    },
+    {
+      "tipo": "legenda",
+      "duracao": 114,
+      "titulo": "Fique em dia",
+      "midia": [
+        {
+          "arquivo": "clips/VIA_B.mp4",
+          "inicio": 0,
+          "velocidade": 0.6
+        }
+      ],
+      "atendimento": {
+        "rotulo": "Atendimento presencial",
+        "horario": "Das 08h às 17h",
+        "local": [
+          "Coordenadoria de Atendimento",
+          "ao Contribuinte – CAC"
+        ],
+        "orgao": "Secretaria de Gestão Fazendária"
+      }
+    },
+    {
+      "tipo": "fechamento",
+      "duracao": 175
+    }
+  ]
+}

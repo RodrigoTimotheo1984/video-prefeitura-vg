@@ -1,0 +1,45 @@
+{
+  "titulo": "TESTE de conceito próprio (mesma pauta, outra abertura)",
+  "tipo": "servicos",
+  "conceito": "Os nomes dos serviços empilham na abertura, um por batida; cortina entre os blocos.",
+  "assinatura": { "linha1": "Secretaria Municipal de", "linha2": "Viação e Obras" },
+  "transicao": "cortina",
+  "vo": {
+    "arquivo": "audio/locucao.wav",
+    "trechos": [
+      { "de": 0, "ate": 108, "em": 12 },
+      { "de": 108, "ate": 189, "em": 132 },
+      { "de": 189, "ate": 279, "em": 225 },
+      { "de": 279, "ate": 377, "em": 327 },
+      { "de": 377, "ate": 463, "em": 437 },
+      { "de": 463, "ate": 526, "em": 535 },
+      { "de": 526, "ate": 618, "em": 606 }
+    ]
+  },
+  "trilha": { "arquivo": "audio/trilha.wav", "inicio": 131, "volume": 0.16, "volumeFinal": 0.3, "sobeEm": 585 },
+  "cenas": [
+    {
+      "tipo": "abertura", "duracao": 126, "corte": 52,
+      "linhas": [ { "numero": 4, "texto": "serviços" }, { "numero": 6, "texto": "bairros", "placa": true } ],
+      "chamada": "Viação e Obras nas ruas",
+      "midia": [ { "arquivo": "clips/TAP002.mp4", "inicio": 0 }, { "arquivo": "clips/TAP008.mp4", "inicio": 2 } ]
+    },
+    {
+      "tipo": "servico", "duracao": 93, "servico": "Tapa-buraco", "locais": ["Júlio Domingos de Campos"],
+      "midia": [ { "arquivo": "clips/TAP063.mp4", "inicio": 0.4 }, { "arquivo": "clips/TAP014.mp4", "inicio": 0, "velocidade": 0.45 } ]
+    },
+    {
+      "tipo": "servico", "duracao": 102, "servico": "Patrolamento", "locais": ["Sadia III", "Mangabeiras"],
+      "midia": [ { "arquivo": "clips/PATROL_A.mp4", "inicio": 1.6 }, { "arquivo": "clips/PATROL_B.mp4", "inicio": 0.6 } ]
+    },
+    {
+      "tipo": "servico", "duracao": 110, "servico": "Drenagem", "locais": ["Joaquim Curvo", "Jardim União"],
+      "midia": [ { "arquivo": "clips/DREN_A.mp4", "inicio": 0.5 }, { "arquivo": "clips/DREN_B.mp4", "inicio": 1.0 } ]
+    },
+    {
+      "tipo": "servico", "duracao": 98, "servico": "Bocas de lobo", "locais": ["Alameda"],
+      "midia": [ { "arquivo": "clips/OBR007.mp4", "inicio": 0.3 }, { "arquivo": "clips/OBR006.mp4", "inicio": 0.3 } ]
+    },
+    { "tipo": "fechamento", "duracao": 194 }
+  ]
+}

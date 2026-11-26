@@ -1,0 +1,22 @@
+{
+  "titulo": "Acelera VG + Serviços (perfil da prefeita)",
+  "tipo": "aviso",
+  "conceito": "A seta leva o serviço: a seta da campanha atravessa a tela nas trocas e, no calendário, desce a rota parando em cada bairro até formar um calendário bom para print.",
+  "tema": { "destaque": "#E89824", "sobreDestaque": "#FFFFFF", "base": "#3C6C50", "fundo": "#23452F", "noite": "#14301F" },
+  "transicao": "corte",
+  "trilha": { "arquivo": "audio/cold-funk-112bpm_incompetech.mp3", "inicio": 514, "volumeSemVoz": 0.7 },
+  "cenas": [
+    { "tipo": "abertura", "duracao": 96, "corte": 48, "midia": [ { "arquivo": "clips/QUADRA.mp4", "inicio": 0.5 }, { "arquivo": "clips/FILA.mp4", "inicio": 0.4 } ] },
+    { "tipo": "legenda", "duracao": 97, "titulo": "Perto de quem\nmais precisa", "apoio": "Em escolas das 5 regiões", "midia": [ { "arquivo": "clips/PRESSAO.mp4", "inicio": 0.6 }, { "arquivo": "clips/BALCAO.mp4", "inicio": 0.6 } ] },
+    { "tipo": "calendario", "duracao": 321, "em": [32, 80, 129, 177],
+      "paradas": [
+        { "dia": "28", "mes": "NOV", "regiao": "Região Sul", "bairro": "Santa Maria II", "escola": "EMEB Emanuel Benedito de Arruda" },
+        { "dia": "05", "mes": "DEZ", "regiao": "Região Norte", "bairro": "Chapéu do Sol", "escola": "EMEB Ednilson F. Kolling" },
+        { "dia": "12", "mes": "DEZ", "regiao": "Região Oeste", "bairro": "São Mateus", "escola": "EMEB Maria Pedrosa de Miranda" },
+        { "dia": "19", "mes": "DEZ", "regiao": "Região Centro", "bairro": "Jardim Paula II", "escola": "EMEB Angelina Jardim Botelho" }
+      ],
+      "midia": [ { "arquivo": "clips/DRONE.mp4", "inicio": 1 } ] },
+    { "tipo": "legenda", "duracao": 97, "titulo": "Programe-se\ne aproveite", "apoio": "Serviços gratuitos para você", "midia": [ { "arquivo": "clips/SAUDE.mp4", "inicio": 0.4 }, { "arquivo": "clips/MESA.mp4", "inicio": 0.5 } ] },
+    { "tipo": "fechamento", "duracao": 96 }
+  ]
+}

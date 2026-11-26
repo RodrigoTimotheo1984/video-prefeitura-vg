@@ -1,0 +1,29 @@
+{
+  "titulo": "TESTE do tipo aviso (dados fictícios)",
+  "tipo": "aviso",
+  "conceito": "Título em duas linhas, cartão de informação com quando, horário e onde, cortina entre as cenas.",
+  "transicao": "cortina",
+  "trilha": { "arquivo": "audio/groundwork.mp3", "inicio": 565 },
+  "cenas": [
+    {
+      "tipo": "abertura", "duracao": 100,
+      "linhas": [ { "texto": "Mutirão de" }, { "texto": "serviços", "placa": true } ],
+      "chamada": "Prefeitura no seu bairro",
+      "midia": [ { "arquivo": "clips/OBR007.mp4", "inicio": 0.3 } ]
+    },
+    {
+      "tipo": "info", "duracao": 150, "titulo": "Anote aí",
+      "itens": [
+        { "rotulo": "Quando", "valor": "Sábado, 12 de dezembro" },
+        { "rotulo": "Horário", "valor": "Das 8h às 17h" },
+        { "rotulo": "Onde", "valor": "Praça do Jardim União" }
+      ],
+      "midia": [ { "arquivo": "clips/DREN_B.mp4", "inicio": 1.0 } ]
+    },
+    {
+      "tipo": "legenda", "duracao": 100, "titulo": "Mais de 20 serviços gratuitos", "apoio": "Leve um documento com foto",
+      "midia": [ { "arquivo": "clips/TAP008.mp4", "inicio": 1.0 } ]
+    },
+    { "tipo": "fechamento", "duracao": 100 }
+  ]
+}
