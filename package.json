@@ -1,0 +1,16 @@
+{
+  "name": "video-prefeitura",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Motor de Reels 1080x1920 da Prefeitura de Várzea Grande (Remotion). Cada vídeo fica em videos/<pasta>/video.json.",
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "@remotion/google-fonts": "4.0.546",
+    "@remotion/layout-utils": "^4.0.546",
+    "@types/react": "18.3.31",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.546",
+    "typescript": "7.0.2"
+  }
+}

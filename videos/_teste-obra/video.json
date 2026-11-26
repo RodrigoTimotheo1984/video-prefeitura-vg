@@ -1,0 +1,29 @@
+{
+  "titulo": "TESTE do tipo obra, com tema de campanha (dados fictícios)",
+  "tipo": "obra",
+  "conceito": "Tema laranja de campanha; número grande contando; painel que sobe entre as cenas.",
+  "tema": { "destaque": "#FF9A1F", "sobreDestaque": "#2A1205", "base": "#D9480F", "fundo": "#5C2408", "noite": "#1E0D04", "selo": "Campanha" },
+  "assinatura": { "linha1": "Secretaria Municipal de", "linha2": "Viação e Obras" },
+  "transicao": "subida",
+  "trilha": { "arquivo": "audio/trilha.wav", "inicio": 131 },
+  "cenas": [
+    {
+      "tipo": "abertura", "duracao": 100,
+      "linhas": [ { "texto": "Drenagem no" }, { "texto": "Joaquim Curvo", "placa": true } ],
+      "midia": [ { "arquivo": "clips/DREN_A.mp4", "inicio": 0.5 } ]
+    },
+    {
+      "tipo": "numero", "duracao": 110, "valor": 1500, "sufixo": "m", "legenda": "de rede de drenagem",
+      "midia": [ { "arquivo": "clips/DREN_B.mp4", "inicio": 2.0 } ]
+    },
+    {
+      "tipo": "numero", "duracao": 110, "valor": 2.4, "casas": 1, "prefixo": "R$", "sufixo": "mi", "legenda": "em investimento",
+      "midia": [ { "arquivo": "clips/PATROL_B.mp4", "inicio": 0.6 } ]
+    },
+    {
+      "tipo": "legenda", "duracao": 90, "titulo": "Fim dos alagamentos", "apoio": "Obra em andamento",
+      "midia": [ { "arquivo": "clips/PATROL_A.mp4", "inicio": 1.6 } ]
+    },
+    { "tipo": "fechamento", "duracao": 100 }
+  ]
+}

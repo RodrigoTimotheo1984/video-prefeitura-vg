@@ -1,0 +1,24 @@
+{
+  "titulo": "Regularize suas multas de trânsito com 50% de desconto",
+  "tipo": "aviso",
+  "conceito": "A barra do percentual se transforma em uma faixa de pista que conduz até a data de vencimento.",
+  "transicao": "corte",
+  "vo": {
+    "arquivo": "audio/narracao_completa.wav",
+    "trechos": [{ "de": 0, "ate": 562, "em": 4 }]
+  },
+  "trilha": {
+    "arquivo": "audio/happy-alley.mp3",
+    "inicio": 257,
+    "volume": 0.08,
+    "volumeFinal": 0.08,
+    "sobeEm": 565
+  },
+  "cenas": [
+    { "tipo": "abertura", "duracao": 88, "linhas": [{ "texto": "50% de desconto" }], "midia": [] },
+    { "tipo": "legenda", "duracao": 124, "titulo": "Sobre o valor atualizado", "apoio": "Pagamento integral à vista", "midia": [] },
+    { "tipo": "info", "duracao": 131, "titulo": "Multas vencidas até", "itens": [{ "rotulo": "Vencimento", "valor": "31/12/2025" }], "midia": [] },
+    { "tipo": "legenda", "duracao": 78, "titulo": "Regularize sua multa", "midia": [] },
+    { "tipo": "fechamento", "duracao": 165 }
+  ]
+}
